@@ -2,6 +2,7 @@ version: "3.7"
 services:
   clickhouse:
     image: clickhouse/clickhouse-server:24-alpine
+    restart: unless-stopped
     environment:
       - CLICKHOUSE_DB=default
       - CLICKHOUSE_USER=default
