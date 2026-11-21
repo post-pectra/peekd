@@ -60,3 +60,7 @@ docker compose up -d
 | `PEEKD_NODE_REGION` | Node region label | `local` |
 | `PEEKD_NODE_ALIAS` | Node alias label | `local` |
 | `PEEKD_DB_*` | ClickHouse connection settings | see `.env.example` |
+
+## Documentation
+
+Architecture details, the glossary, and decision records are in the [code wiki](docs/README.md).
